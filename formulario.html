@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" type="text/css" href="style3.css">
+
+</head>
+<body class="cuerpo">
+    
+    <div class="container">
+        <div><img class="logo" src="Logos/Logo sin fondo.png"></div>
+        <div class="Caja1"><a href="paginaprincipal.html" target="_blank" style="text-decoration: none; color: black;">Página principal</div></a>
+        <div class="Caja2">TEMÁTICA Y SERVICIOS</div>
+        <div class="Caja3">HORARIOS Y CALENDARIO</div>
+    </div>
+    
+    <div class="cuadro">
+        <p class="reservas">Reservas</p>
+    </div>
+
+    <form method="post" action="email.php">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="contenidos">Seleccionar promociones y paquetes:</label>
+        <select id="contenidos" name="contenidos">
+            <option value="contenido1">Individual</option>
+            <option value="contenido2">Duo</option>
+            <option value="contenido3">Individual con pulsera</option>
+            <option value="contenido4">Duo con pulsera</option>
+            <option value="contenido3">Entrada de atracciones</option>
+            <option value="contenido4">Hotel + Entrada</option>
+            <option value="contenido3">Hotel + Entrada + Pulsera</option>
+            <option value="contenido4">Pack Espectáculo</option>
+            <option value="contenido3">Paquete Básico</option>
+            <option value="contenido4">Paquete Premium</option>
+            <option value="contenido3">Paquete Vip</option>
+            <option value="contenido4">Promoción Grupo</option>
+            <option value="contenido3">Promoción Cumpleaños</option>
+        </select><br><br>
+
+
+        <label for="tickets">Número de entradas:</label>
+        <input type="number" id="tickets" name="tickets"><br><br>
+
+        <label for="date">Fecha de reserva:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <button type="submit">Reservar</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,591 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(Letras/Cinzel.ttf);
+}
+
+#cuerpo {
+    background-color: darkred;
+}
+
+.container {
+    background-image: url(Logos/Extremadura.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+    color: black;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.Caja1 {
+    font-size: 150%;
+    font-family: Cinzel;
+    padding: 2%;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.Caja1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.Caja2 {
+    font-size: 150%;
+    font-family: Cinzel;
+    padding: 2%;
+    text-align: center;
+    margin-right: 2%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.Caja2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.Caja3 {
+    font-size: 150%;
+    font-family: Cinzel;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.Caja3:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.cuadro1 {
+    background-image: url(Logos/Extremadura.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+}
+
+.entradas {
+    font-size: 25px;
+    font-family: Cinzel;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    border: 2px black solid;
+    width: auto;
+    height: 800px;
+    background-image: url(Logos/Parque.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2%;
+}
+
+.entrada1 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada1.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada1:hover {
+    transform: scale(1.2);
+}
+
+.entrada2 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada2.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada2:hover {
+    transform: scale(1.2);
+}
+
+.entrada3 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada3.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada3:hover {
+    transform: scale(1.2);
+}
+
+.entrada4 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada4.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada4:hover {
+    transform: scale(1.2);
+}
+
+.entrada5 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada5.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada5:hover {
+    transform: scale(1.2);
+}
+
+.entrada6 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada6.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada6:hover {
+    transform: scale(1.2);
+}
+
+.entrada7 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada7.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada7:hover {
+    transform: scale(1.2);
+}
+
+.entrada8 {
+    height: 300px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Entrada8.jpg);
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.entrada8:hover {
+    transform: scale(1.2);
+}
+
+.precio1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco1 {
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.precio2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: end;
+}
+
+.precio3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.precio4 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco4 {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.precio5 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco5 {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.precio6 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco6 {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.precio7 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco7 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.precio8 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.asterisco8 {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.cuadro2 {
+    background-image: url(Logos/Extremadura.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.paquete {
+    font-size: 25px;
+    font-family: Cinzel;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    border: 2px black solid;
+    width: auto;
+    height: 500px;
+    background-image: url(Logos/Paquetes.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2%;
+}
+
+.paquete1 {
+    height: 400px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Paquete\ 1.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.paquete1:hover {
+    transform: scale(1.2);
+}
+
+.paquete2 {
+    height: 400px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Paquete2.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.paquete2:hover {
+    transform: scale(1.2);
+}
+
+.paquete3 {
+    height: 400px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Paquete3.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.paquete3:hover {
+    transform: scale(1.2);
+}
+
+.paq1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.cancelacion {
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.paq2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.cancelacion {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.paq3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.cancelacion3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.cuadro3 {
+    background-image: url(Logos/Extremadura.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.promociones {
+    font-size: 25px;
+    font-family: Cinzel;
+    font-weight: bold;
+    color: black;
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    border: 2px black solid;
+    width: auto;
+    height: 500px;
+    background-image: url(Logos/Paquetess.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2%;
+}
+
+.promo1 {
+    height: 400px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Promo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.promo1:hover {
+    transform: scale(1.2);
+}
+
+.promo2 {
+    height: 400px;
+    width: 250px;
+    border: 1px black solid;
+    font-family: Cinzel;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+    background-image: url(Logos/Promo2.jpg);
+    background-size: cover;
+    background-position: center center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20%;
+}
+
+.promo2:hover {
+    transform: scale(1.2);
+}
+
+.pro1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.pro2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
