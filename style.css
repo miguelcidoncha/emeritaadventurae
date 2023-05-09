@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(Letras/Cinzel.ttf);
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header {
+        padding: 10px;
+        background-color: #ccc;
+    }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media screen and (min-width: 769px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header {
+        padding: 20px;
+        background-color: #eee;
+    }
+}
+
+#cuerpo {
+    background-color: darkred;
+}
+
+.container {
+    background-image: url(Logos/Extremadura.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+    color: black;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.Caja1 {
+    font-size: 150%;
+    font-family: Cinzel;
+    padding: 2%;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.Caja1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.Caja2 {
+    font-size: 150%;
+    font-family: Cinzel;
+    padding: 2%;
+    text-align: center;
+    margin-right: 2%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.Caja2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.Caja3 {
+    font-size: 150%;
+    font-family: Cinzel;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.Caja3:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.contenedor {
+    background-image: url(Logos/Parque\ acuático.gif);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15%;
+    height: auto;
+}
+
+.eslogan {
+    font-size: 50px;
+    text-align: center;
+    font-family: Cinzel;
+    color: black;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 150%;
+    font-family: Cinzel;
+    font-weight: bold;
+    color: white;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagen1 {
+    width: 20%;
+    height: auto;
+    margin-left: 1%;
+    border-radius: 10%;
+    border: 3px black solid;
+}
+
+.imagen1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagen2 {
+    width: 20%;
+    height: auto;
+    border-radius: 10%;
+    border: 3px black solid;
+}
+
+.imagen2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagen3 {
+    width: 20%;
+    height: auto;
+    border-radius: 10%;
+    border: 3px black solid;
+}
+
+.imagen3:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagen4 {
+    width: 20%;
+    height: auto;
+    margin-right: 1%;
+    border-radius: 10%;
+    border: 3px black solid;
+}
+
+.imagen4:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.finalpagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px black solid;
+    margin-top: 3%;
+}
+
+.texto1 {
+    margin-left: 2%;
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto2 {
+    margin-left: 0%;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+.texto3 {
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 0.5;
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 250px;
+}
+
+.logo1 {
+    width: 50px;
+    height: auto;
+}
+
+.logo2 {
+    width: 50px;
+    height: auto;
+}
+
+.logo3 {
+    width: 50px;
+    height: auto;
+}
+
+.logo4 {
+    width: 50px;
+    height: auto;
+}
