@@ -3,30 +3,6 @@
     src: url(Letras/Cinzel.ttf);
 }
 
-/* Estilos para pantallas pequeñas */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    .header {
-        padding: 10px;
-        background-color: #ccc;
-    }
-}
-
-/* Estilos para pantallas medianas y grandes */
-@media screen and (min-width: 769px) {
-    body {
-        font-size: 16px;
-    }
-
-    .header {
-        padding: 20px;
-        background-color: #eee;
-    }
-}
-
 #cuerpo {
     background-color: darkred;
 }
