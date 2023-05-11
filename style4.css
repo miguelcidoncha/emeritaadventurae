@@ -3,13 +3,13 @@
     src: url(Letras/Cinzel.ttf);
 }
 
-@media screen {}
-
+.body {
+    background-color: darkred;
+}
 
 .contenedorcabecera {
 
     background-color: darkred;
-    border: 1px solid black;
     width: auto;
     height: 1500px;
     justify-content: center;
@@ -35,13 +35,13 @@
 }
 
 .logo {
-    width: 100%;
-    height: 155px;
+    width: 11.25rem;
+    height: auto;
 
 }
 
 .Caja1 {
-    font-size: 130%;
+    font-size: 150%;
     font-family: Cinzel;
     padding: 2%;
     text-align: center;
@@ -59,7 +59,7 @@
 }
 
 .Caja2 {
-    font-size: 130%;
+    font-size: 150%;
     font-family: Cinzel;
     padding: 2%;
     text-align: center;
@@ -76,7 +76,7 @@
 }
 
 .Caja3 {
-    font-size: 130%;
+    font-size: 150%;
     font-family: Cinzel;
     padding: 2%;
     text-align: center;
@@ -141,6 +141,11 @@
 
 }
 
+.caja4:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
 .horario1 {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
@@ -160,8 +165,11 @@
     height: 250px;
     margin-left: 5%;
     text-align: center;
+}
 
-
+.caja5:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
 }
 
 .horario2 {
@@ -175,7 +183,7 @@
     height: 750px;
     width: 750px;
     margin-top: 2%;
-    margin-left: 27%;
+    margin-left: 28%;
 }
 
 
