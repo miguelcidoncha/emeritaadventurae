@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(Letras/Cinzel.ttf);
+}
+
+.cuerpo {
+    background-color: darkred;
+    font-family: Cinzel;
+    font-weight: bold;
+}
+
+.c1 {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    height: 15.625rem;
+    width: 78.125rem;
+    background-image: url(Logos/Extremadura.jpg);
+    background-size: contain;
+}
+
+.c2 {
+    border: 2px solid black;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 35%;
+    padding: 5%;
+    height: 21.875rem;
+    width: 21.875rem;
+    background-image: url(Logos/Logo\ sin\ fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: cornflowerblue;
+}
+
+.c3 {
+    border: 2px solid black;
+    z-index: relative;
+    width: 78.125rem;
+    height: 68.75rem;
+    margin: auto;
+    background-color: white;
+}
+
+.c4 {
+    border: 2px solid black;
+    background-color: darkred;
+    background-image: url(Logos/Email.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 14%;
+    height: 31.25rem;
+    width: 62.5rem;
+    font-size: 3.125rem;
+    text-align: center;
+    line-height: 100%;
+    margin-left: 10%;
+}
+
+.c5 {
+    text-align: center;
+}
+
+.c6 {
+    text-align: center;
+}
+
+.c7 {
+    text-align: center;
+}
